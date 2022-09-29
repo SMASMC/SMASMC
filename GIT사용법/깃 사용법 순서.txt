@@ -1,0 +1,50 @@
+파일을 git add .로 커밋을 해준다.
+
+git commit -am "커밋할 파일 이름"
+//git commit 오류 났을 경우 작성
+
+파일 설정을 마쳤다면
+커밋 후 푸쉬로 올려준다.
+
+
+branch(브랜치)란?
+독립적으로 어떤 작업을 진행하기 위한 개념.
+
+협업할 팀원을 추가
+레포지토리의 설정-> 협력자->액세스 관리-> 사람 추가
+
+원격 저장소 사용하기
+저장할 저장소를 들어감->or push an existing repository from the command line
+-> 영어인 상태로 복사 후 터미널에 붙여넣기
+
+github 레포지토리 생성 후 복붙 명령어
+git remote add origin (원격 저장소 주소)
+git branch M main
+git push -u origin main
+
+git remote remove origin//git연결 끊어주기
+
+git remote -v//이걸로 어느 쪽에 push를 넣고 있는지 주소를 확인할 수 있다.
+
+git clone //+깃 주소 가져오면 해당 주소에 있던 프로그램들을 다운로드한다.
+
+git init
+git add .
+git commit -m "파일을 구분하려는 이름"
+git branch -M main//파일의 계급? 같은 느낌 계급의 이름을 지정해서 
+git remote add origin (연결을 안했을 경우 연결할 주소)//깃을 연동 안했을 시 작성
+https://github.com/SMASMC/SMASMC.git
+git push -u origin main
+//git push -u origin SMASMC
+
+폴더 안에 넣으려고 할 경우 .(폴더명)으로 작성한 후 폴더 안에 파일을 넣어준다.
+/C/Users/msoko/github/visualCode//visual code 파일 업로드 위치
+C:\Users\msoko\github\visualCode
+C:\Users\msoko\Source\Repos\BigData-testTeamProject//깃 협업 경로
+
+***경로 지정하고 보내고 싶은 경우***
+cd로 터미널의 지정 경로를 초기화한다.
+cd 다음으로 터미널의 지정 경로를 지정한다.
+그 다음으로 위와 같은 진행순서를 하되 파일의 계급 같은 것을 주의해야하며,
+기존에 연결되어 있던 링크를 해제를한 뒤에 새로 연결할 링크로 연결해 준다.
+그 다음 푸쉬

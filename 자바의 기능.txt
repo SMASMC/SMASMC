@@ -1,0 +1,22 @@
+자바 다양한 기능
+
+난수뽑기
+Random random=new Random();
+random.nextInt(bound:(난수의 갯수));
+
+
+날짜뽑기
+year=calendar.get((클래스이름).YEAR);
+month=calendar.get((클래스이름).MONTH)+1;
+day=calendar.get((클래스이름).DAY_OF_MONTH);
+hour=calendar.get((클래스이름).HOUR_OF_DAY);
+minute=calendar.get((클래스이름).MINUTE);
+second=calendar.get((클래스이름).SECOND);
+
+변수명.append("hijklmn");//붙이는 기능으로 사용
+변수명.insert(3, "zzz");//삽입 3번째 자리 이후로 삽입되고 뒤로 나머지를 이어감.
+변수명.delete(3,5);//해당 범위만 삭제를 해준다.
+
+Integer.toString(num1);//숫자인것을 문자로 변경
+(str2.concat(str3));//연결
+Integer.parseInt(str1);//문자였던것을 숫자로 변경

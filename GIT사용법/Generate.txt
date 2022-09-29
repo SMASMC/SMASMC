@@ -1,0 +1,8 @@
+Generate getters and setters
+클래스에 각메소드를 넣어줌
+Generate constructor using Fields
+필드에 있는 변수들을 메소드에 지정해줌
+
+setText: 값을 지정해주는 것
+getText: 값을 가져오는 것
+변수명1.setText(변수명2.getText());

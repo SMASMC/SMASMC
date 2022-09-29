@@ -1,0 +1,11 @@
+문자 난수로 뽑기
+
+package com.javalec.base;
+import java.util.Random;
+
+
+public class LunchMenu {
+
+	public static void main(String[] args) {	System.out.println(randomAlphaWord(30));	System.out.println(randomAlphaWord(25));	System.out.println(randomAlphaWord(40));}	/** * int를 받아서, 랜덤 알파벳을 출력함 *  * @param wordLength * @return */public static String randomAlphaWord(int wordLength) {	Random r = new Random();	StringBuilder sb = new StringBuilder(wordLength);		for(int i = 0; i < wordLength; i++) {		char tmp = (char) ('a' + r.nextInt('z' - 'a'));				sb.append(tmp);	}		return sb.toString();}
+
+}

@@ -1,0 +1,23 @@
+작업폴더(작업 내용을 저장한 폴더)에서 git을 사용하고 싶다면 git init을 입력
+파일 하나의 현재상태를 기록해두려면 git add (파일명.파일확장자)작성
+//두개 이상으로도 작성 가능함.
+git commit -m "(메모하는 느낌으로 표시하고 싶은 이름 작성)"
+
+용어 정리
+작업폴더->staging area(파일을 고르는 일)에 git add: (기록을 하고 싶은 파일)
+-> repository(저장소)에 git commit 
+
+git add .//.은 all을 나타냄 전체를 추가해준다고 생각
+
+git status//상태창 나타내기
+
+git log --all// commit 내역 조회 (여태했던 commit 내역을 조회함)
+
+git log --online --all//커밋아이디 나옴
+
+git diff보단 git difftool을 사용함
+git difftool (커밋 아이디)
+(Vim 에디터가 나옴)
+:q아니면 :qa로 종료
+
+git difftool (커밋 아이디1, 커밋 아이디2)//커밋끼리의 차이점을 분석함.

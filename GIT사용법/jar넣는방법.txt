@@ -1,0 +1,3 @@
+ls
+java -jar Inheritance_01.jar
+넣으려는 자르파일을 java -jar 파일명.jar//로 넣어주면 됨

@@ -1,0 +1,39 @@
+cd C:\Users\msoko\github
+
+
+git init //master로 들어감
+git config --global alias.st(줄이고 싶은 단어) status//줄이고 싶은 단어 설정 alias
+status: 상태
+
+https://github.com/SMASMC/project.git
+
+working directory//작업 중
+staging area//파일을 옮겨 놓음
+.git directory//버전의 히스토리를 가지고 있음
+push로 깃 저장소에 옮김
+pull로 pc에 다운
+
+echo (텍스트 입력 출력 파일)>(파일 이름).txt// 파일을 저장할 수 있는 명령어
+
+git add (추가할 파일.확장자)// git에 파일 추가
+
+git add (추가할 파일명.*확장자)// 해당 확장자를 모두 git에 추가
+
+git rm --cached *//전체 파일들 제거
+
+echo *.log > .gitignore//log파일을 추가하고 싶지 않은 경우
+
+git status -s
+상태를 모두 확인 할 수 있음
+
+git diff//어떠한 내용이 수정되었는지 확인
+
+git diff --staged//파일 상태와 add된 파일 상태 비교
+
+cat (파일이름).(확장자 이름)//파일 내용 출력
+
+ctrl+`//터미널 열기
+
+.gitignore//깃에서 읽히지 않았으면 하는 내용 담기
+
+git remote rm origin//git 원격 원본 제거하기

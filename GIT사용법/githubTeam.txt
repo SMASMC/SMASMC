@@ -1,0 +1,4 @@
+git checkout -b (브랜치명)
+git add .
+git commit -m "(나타내고 싶은 파일 명)"
+git push origin (방금 선언했던 브랜치명)

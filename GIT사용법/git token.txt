@@ -1,0 +1,9 @@
+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
+
+windows 자격 증명
+일반 자격 증명
+git:https://github.com
+편집-> 암호에 토큰 담아 넣기
+
+SourceTree
+도구-> 옵션-> 인증-> 똑같이

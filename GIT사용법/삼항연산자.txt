@@ -1,0 +1,33 @@
+package com.javalec.base;
+
+
+public class for_03 {
+
+	public static void main(String[] args) {
+		
+		int num1;
+		int hol=0;
+		int zzack=0;
+		int j=0;
+		
+		for (int i = 2; i <= 9; i++) {
+			System.out.print(i + " 문\t");
+		}
+		System.out.println();
+		for (int i = 1; i <= 9; i++) {//1일 때 짝수는 1*2=2/ 3일 때 짝수는 3*2=6으로된다.
+			num1=(i%2==0)?zzack:hol;
+				
+				for (hol = 2; hol <= 9; hol++) {
+					
+					System.out.print(hol + "X" + "*" + "=" + (i* hol) + "\t");
+				}				
+				System.out.println();
+				for (zzack = 2; zzack <= 9; zzack++) {
+					System.out.print(zzack + "X" + i*2 + "=" + ((i*2) * zzack) + "\t");
+				}	
+				System.out.println();
+				i++;
+			}
+	}
+
+	}

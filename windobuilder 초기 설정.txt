@@ -1,0 +1,6 @@
+windowbuilder 초기 설정
+windowbuilder 다운로드
+Help -> Eclipse Marketplace접속->WindowBuilder Install
+window 탭에 PreFernces클릭->
+.WindowBuilder -> Swing -> code Generation 클릭
+Variable generation 칸 안의 Local을 Lazy로 변경
