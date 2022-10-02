@@ -1,7 +1,7 @@
 package com.javalec.dto;
 
 public class Dto {
-   
+   //fields
    int custNum;
    String cpassword;
    String cname;
@@ -14,7 +14,7 @@ public class Dto {
       
    }
 
-
+//사용하고 자하는 사이즈들을 지정해줌 
 
    public Dto(String cname, String cinitdate, String custid) {
 	super();
@@ -24,6 +24,11 @@ public class Dto {
 }
 
 
+
+public Dto(String cdeletedate) {
+	super();
+	this.cdeletedate = cdeletedate;
+}
 
 public Dto(int custNum, String cname, String cinitdate, String custid) {
 	super();

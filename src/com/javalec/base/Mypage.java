@@ -26,6 +26,7 @@ import javax.swing.JButton;
 
 public class Mypage {
 
+//	private static final String cdeletedate = null;
 	private JFrame frmMypage;
 	private JLabel lblcustid;
 	private JTextField tfcustid;
@@ -38,6 +39,7 @@ public class Mypage {
 	private JButton btnexit;
 	private final DefaultTableModel Outer_Table = new DefaultTableModel();
 	private JTextField textField;
+//	private Object cdeletedate;
 
 //값들을 저장하는 final
 	/**
@@ -176,7 +178,8 @@ public class Mypage {
 			btnexit.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					// 상품list 클래스넣어주면됨.
-					System.exit(0);
+//					initialize();
+					System.exit(0);//확인버튼 누를시 바로 종료
 				}
 			});
 			btnexit.setBounds(312, 213, 97, 23);
@@ -184,7 +187,7 @@ public class Mypage {
 		return btnexit;
 	}
 
-	private void clearColumn() {
+	private void clearColumn() {//적혀있던(표시되어있던) 값들을 비워줌
 		tfcustid.setText("");
 		tfcname.setText("");
 		tfcdate.setText("");
@@ -202,30 +205,32 @@ public class Mypage {
 				String temp = Integer.toString(dtoList.get(index).getCustNum());
 				String[] qTxt = { temp, dtoList.get(index).getCustid(), dtoList.get(index).getCname(),
 						dtoList.get(index).getCinitdate() };
+				//값을 누적시킴
 
 				Outer_Table.addRow(qTxt);// 누적됨.
-				tfcustid.setText(dtoList.get(index).getCname());// 누적된 값을
+				tfcustid.setText(dtoList.get(index).getCname());// 누적된 값을 뽑아줌.
 				tfcname.setText(dtoList.get(index).getCinitdate());
 				tfcdate.setText(dtoList.get(index).getCustid());
 			}
 		}
 
 	}
-	private void deletedate() {// 삭제
 
-		int seqno = Integer.parseInt(tfcustid.getText());
+	private void deletedate() {// 탈퇴날짜를 저장하기
 
-		Dao dao = new Dao(seqno);
-		boolean ok = dao.deleteAction();
-
+		int seqno = Integer.parseInt(textField.getText());
+		// 지정되는 번호(ID)에 now()데이터를 넣어준다.
+		Dao dao = new Dao(tfcdate.getText(), seqno);
+		boolean ok = dao.deletedate();
+//		&&cdeletedate==null
 		if (ok == true) {
-			JOptionPane.showMessageDialog(null, tfcustid.getText() + "해당사항을 삭제하겠습니다.");
+			JOptionPane.showMessageDialog(null, textField.getText() + "해당사항을 삭제하겠습니다.");
 
 		} else {
 			JOptionPane.showMessageDialog(null, "DB작업중 문제가 발생했습니다. \n행정실로 문의 하세요!");
 		}
 	}
-	
+
 	private JTextField getTextField() {
 		if (textField == null) {
 			textField = new JTextField();
@@ -236,17 +241,15 @@ public class Mypage {
 	}
 
 	private void updateActions() {
-		
-		int custNum=Integer.parseInt(textField.getText());
-		Dao dao = new Dao(custNum,tfcustid.getText(), 
-				tfcname.getText(), 
-				tfcdate.getText());
-		boolean ok=dao.updateAction();
-		
-		if(ok == true) {
-			JOptionPane.showMessageDialog(null, tfcname.getText()+"님의 정보가 수저 되었습니다.");
-		}else {
-			JOptionPane.showMessageDialog(null,"DB작업중 문제가 발생했습니다. \n행정실로 문의 하세요.");
+
+		int custNum = Integer.parseInt(textField.getText());
+		Dao dao = new Dao(custNum, tfcustid.getText(), tfcname.getText(), tfcdate.getText());
+		boolean ok = dao.updateAction();
+
+		if (ok == true) {
+			JOptionPane.showMessageDialog(null, tfcname.getText() + "님의 정보가 수정 되었습니다.");
+		} else {
+			JOptionPane.showMessageDialog(null, "DB작업중 문제가 발생했습니다. \n전산실로 문의 하세요.");
 		}
 
 	}
