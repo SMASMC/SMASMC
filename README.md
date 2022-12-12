@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <a href="https://www.notion.so/R-e4e7fbe1e231401f8c860e8c635c766a" target="_blank">
-<img src="https://img.shields.io/badge/뱃지레이블-000000?style=social&logo=appveyor&logoColor=000000"/></a>
+<img src="https://img.shields.io/badge/Notion-000000?style=social&logo=appveyor&logoColor=000000"/></a>
