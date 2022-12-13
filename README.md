@@ -1,5 +1,18 @@
 
 
+
+<a href="https://www.notion.so/R-e4e7fbe1e231401f8c860e8c635c766a" target="_blank">
+<img src="https://img.shields.io/badge/Notion-000000?style=social&logo=appveyor&logoColor=000000"/></a>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SMASMC&show_icons=true&theme=dracula)
+[![SMASMC's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=SMASMC&show_icons=true&hide_border=true&title_color=282A36&icon_color=282A36&layout=compact)](https://github.com/SMASMC)
 <!--
 **SMASMC/SMASMC** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,15 +27,3 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<a href="https://www.notion.so/R-e4e7fbe1e231401f8c860e8c635c766a" target="_blank">
-<img src="https://img.shields.io/badge/Notion-000000?style=social&logo=appveyor&logoColor=000000"/></a>
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SMASMC&show_icons=true&theme=dracula)
-[![SMASMC's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=SMASMC&show_icons=true&hide_border=true&title_color=282A36&icon_color=282A36&layout=compact)](https://github.com/SMASMC)
