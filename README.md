@@ -25,4 +25,4 @@ Here are some ideas to get you started:
 <br>
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SMASMC&show_icons=true&theme=dracula)
-[![SMASMC's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=SMASMC&show_icons=true&hide_border=true&title_color=282A36&icon_color=004386&layout=compact)](https://github.com/SMASMC)
+[![SMASMC's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=SMASMC&show_icons=true&hide_border=true&title_color=282A36&icon_color=282A36&layout=compact)](https://github.com/SMASMC)
