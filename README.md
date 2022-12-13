@@ -16,13 +16,13 @@
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SMASMC&show_icons=true&theme=dracula)
 [![SMASMC's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=SMASMC&show_icons=true&hide_border=true&title_color=282A36&icon_color=282A36&layout=compact)](https://github.com/SMASMC)
-
+<a href="s">
+  <img src="https://github-readme-stats.vercel.app/api?username=SMASMC&theme=dracula&show_icons=true" width="42%" />
+</a>
 <a href="s">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SMASMC&exclude_repo=dkssud8150.github.io&layout=compact&theme=tokyonight" />
 </a>
-<a href="s">
-  <img src="https://github-readme-stats.vercel.app/api?username=SMASMC&theme=tokyonight&show_icons=true" width="42%" />
-</a>
+
 
 <!--
 **SMASMC/SMASMC** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
