@@ -1,5 +1,5 @@
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=6796e5&lines=hi,+i'm+here&font=Dancing+Script&size=50&center=true&vCenter=true&width=600&height=80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=6796e5&lines=hiㄹㄴㅇㄹ,+i'm+here&font=Dancing+Script&size=50&center=true&vCenter=true&width=600&height=80)](https://git.io/typing-svg)
 
 <a href="https://www.notion.so/R-e4e7fbe1e231401f8c860e8c635c766a" target="_blank">
 <img src="https://img.shields.io/badge/Notion-000000?style=social&logo=appveyor&logoColor=000000"/></a>
