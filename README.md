@@ -7,21 +7,6 @@
 <a href="https://www.notion.so/R-e4e7fbe1e231401f8c860e8c635c766a" target="_blank">
 <img src="https://img.shields.io/badge/Notion-000000?style=social&logo=appveyor&logoColor=000000"/></a>
 
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<a href="s">
-  <img src="https://github-readme-stats.vercel.app/api?username=SMASMC&theme=dracula&show_icons=true" width="42%" />
-</a>
-<a href="s">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SMASMC&exclude_repo=dkssud8150.github.io&layout=compact&theme=dracula" />
-</a>
-
-
 <!--
 **SMASMC/SMASMC** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
