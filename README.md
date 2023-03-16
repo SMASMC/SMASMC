@@ -45,7 +45,7 @@
   </br>
   
   
-### IDE
+### IDE (Integrated Development Environment)
   <br>
   <br>
   </br>
