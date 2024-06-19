@@ -30,9 +30,6 @@
 <br />
 
 ### Framework
-<img src="https://user-images.githubusercontent.com/95916983/224542137-4247a24f-eced-41e7-b81c-268ee1de8b7f.png" alt="Flutter" width=10%>
-<img width="4%" alt="Spring" src="https://user-images.githubusercontent.com/95916983/224542843-dd2f8360-4353-42c8-833e-ac3eb367c23f.png"> Spring Boot
-
 
 <br>
   </br>
@@ -42,7 +39,5 @@
 ### IDE (Integrated Development Environment)
   <br>
 <img width="4%" alt="microsoft visual studio code" src="https://user-images.githubusercontent.com/95916983/224542322-cebce319-439d-4622-9cfc-78202f84e105.png"> Visual Code
-<img width="4%" alt="Eclipse" src="https://user-images.githubusercontent.com/95916983/224542441-c773e322-2665-404d-860f-35f18239b298.png"> Eclipse
-  <br>
   </br>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSMASMC&count_bg=%23FC9DFF&title_bg=%23555555&icon=github.svg&icon_color=%23FC9DFF&title=hits&edge_flat=false"/></a>
