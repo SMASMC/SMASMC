@@ -43,6 +43,7 @@
 ### 🧑‍🎓 Education
 |When|Where|Activity Contents|Note|
 |:--:|:--:|:--:|:--:|
+|2025.01.17~|Samsung Youth SW Academy| In Progress|
 |2022.09~2023.03|Recommendation System Developer Training Course| Thejoeun Computer Academy| Completed
 |2017.03~2023.02|Hoseo University (Asan)|Information and Communication Engineering|Bachelor|
 |2014.03~2017.02|Osan High School|natural science|Graduation
