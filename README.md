@@ -45,8 +45,6 @@
 |:--:|:--:|:--:|:--:|
 |2025.01.17~|Samsung Youth SW Academy | Web Development Training | In Progress|
 |2022.09~2023.03|Thejoeun Computer Academy| Recommendation System Developer Training Course| Completed
-|2017.03~2023.02|Hoseo University (Asan)|Information and Communication Engineering|Bachelor|
-|2014.03~2017.02|Osan High School|natural science|Graduation
 
 
 ### 📮 Contact & Blog
