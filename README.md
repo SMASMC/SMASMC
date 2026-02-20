@@ -4,7 +4,7 @@
 
 ### JavaScript/TypeScript Full-Stack Developer
 
-<b>사용자의 불편을 집요하게 해결하는 개발자가 되겠습니다.</b>
+<b>사용자의 불편을 끝까지 해결하는 개발자가 되겠습니다.</b>
 
 ---
 
